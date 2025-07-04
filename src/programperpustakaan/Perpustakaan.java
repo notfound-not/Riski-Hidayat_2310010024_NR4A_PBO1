@@ -2,7 +2,8 @@ package programperpustakaan;
 
 //Class
 public class Perpustakaan {
-    //Atribut (Nilai: 5) - Enkapsulasi (Nilai: 5)
+    
+    //Atribut - Enkapsulasi
     private String namaPeminjam;
     private String kodeBuku;
     private String nim;
@@ -50,7 +51,6 @@ public class Perpustakaan {
         return durasiPinjam;
     }
     
-    //Polymorphism (Overloading)
     public String displayInfo() {
         return "Nama Peminjam: " + getNamaPeminjam() +
                "\nNIM: " + getNim() +
@@ -58,6 +58,7 @@ public class Perpustakaan {
                "\nDurasi Pinjam: " + getDurasiPinjam() + " hari";
     }
     
+    //Polymorphism (Overloading)
     public String displayInfo(boolean showDetails) {
         if(showDetails) {
             return displayInfo() + "\nStatus: Sedang Dipinjam";
