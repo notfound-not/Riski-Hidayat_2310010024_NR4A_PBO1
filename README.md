@@ -189,7 +189,7 @@ String nama = scanner.nextLine();
 System.out.print("NIM: ");
 String nim = scanner.nextLine();
             
-System.out.print("Kode Buku (6 digit): ");
+System.out.print("Kode Buku (8 digit): ");
 String kodeBuku = scanner.nextLine();
             
 System.out.print("Durasi Pinjam (hari): ");
